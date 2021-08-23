@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "5MMkWl5rTXl5LKNTJy9fex94jbDq3gzE+wP3T8/XX7+fRpzxzcDIqJYomGas1EiRQhy+G5Dt0yalUrfxWGwoEg==",
+  "success": true,
+  "projectFilePath": "/Users/arpithamr/Desktop/PanasonicTestApp/PanasonicApp.iOS/PanasonicApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/arpithamr/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/arpithamr/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/arpithamr/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/arpithamr/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

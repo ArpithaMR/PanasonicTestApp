@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/arpithamr/Desktop/PanasonicTestApp/PanasonicApp.iOS/PanasonicApp.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/arpithamr/Desktop/PanasonicTestApp/PanasonicApp.iOS/PanasonicApp.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arpithamr/Desktop/PanasonicTestApp/PanasonicApp.iOS/PanasonicApp.iOS.csproj",
+        "projectName": "PanasonicApp.iOS",
+        "projectPath": "/Users/arpithamr/Desktop/PanasonicTestApp/PanasonicApp.iOS/PanasonicApp.iOS.csproj",
+        "packagesPath": "/Users/arpithamr/.nuget/packages/",
+        "outputPath": "/Users/arpithamr/Desktop/PanasonicTestApp/PanasonicApp.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/arpithamr/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

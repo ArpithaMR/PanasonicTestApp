@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="PanasonicApp.Views.MainPage">
+
+    <!--<TabbedPage.Children>
+        <NavigationPage Title="Search Movies">
+            <x:Arguments>
+                <views:ItemsPage />
+            </x:Arguments>
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_feed.png"/>
+                </OnPlatform>
+            </NavigationPage.Icon>
+        </NavigationPage>
+        
+        <NavigationPage Title="View Movie List">
+            <x:Arguments>
+                <views:AboutPage />
+            </x:Arguments>
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_about.png"/>
+                </OnPlatform>
+            </NavigationPage.Icon>
+        </NavigationPage>
+    </TabbedPage.Children>-->
+    <StackLayout>
+        <Grid RowSpacing="0"
+      ColumnSpacing="0"
+      Margin="0"
+      Padding="0" VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <!-- the containers height will now adjust -->
+                <RowDefinition Height="Auto"/>
+                <!-- This one is for the other content in your view etc -->
+            </Grid.RowDefinitions>
+            <!-- Put your image inside your parent container and apply properties -->
+            <Image Source="Movie.jpg"
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="FillAndExpand"
+                   Aspect="AspectFill"
+                   HeightRequest="675"/>
+
+            <!--<Image Source="Movie.jpg" Aspect="Fill" Margin="0,0,0,0" HeightRequest="700"></Image>-->
+            <Button  Text="Search" BackgroundColor="Black" VerticalOptions="EndAndExpand" TextColor="White"   Padding="20" Command="{Binding SearchClickedCommand}"></Button>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
